@@ -1,0 +1,11 @@
+// Set the root element
+$semantic-root-element: "#mount";
+
+// Enable <header>, <main>, <footer> inside $semantic-root-element as containers
+$enable-semantic-container: true;
+
+// Enable .classes
+$enable-classes: false;
+
+// Import Pico
+@import "pico";
